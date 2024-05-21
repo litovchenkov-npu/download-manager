@@ -1,0 +1,17 @@
+{
+    "appId": "com.litov.downloadManager",
+    "productName": "Download manager",
+    "directories": {
+        "output": "dist"
+    },
+    "files": [
+        "index.html",
+        "icon.ico",
+        "main.js",
+        "renderer.js",
+        "./scripts/download.js"
+    ],
+    "win": {
+        "target": "nsis"
+    }
+}

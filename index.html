@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Download manager</title>
+</head>
+<body>
+    <div class="control_panel">
+        <input id="downloadInput" type="text" placeholder="Enter the download link here...">
+        <button id="downloadBtn">Add download</button>
+    </div>
+
+    <table id="downloadTable" class="download_table">
+        <thead>
+            <tr>
+                <th>File name</th>
+                <th>Progress</th>
+                <th>File Size (GB)</th>
+                <th>Download Speed (MB/s)</th>
+                <th>Estimated Time</th>
+            </tr>
+        </thead>
+        <tbody id="downloadList"></tbody>
+    </table>
+    
+    <script src="renderer.js"></script>
+</body>
+</html>
